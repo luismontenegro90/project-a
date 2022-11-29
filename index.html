@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Project #2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="wrapper">
+        <div class="logo-wrapper">
+          <a href="#"><img src="/img/01 Logo W.svg" alt="logo" /></a>
+        </div>
+        <div class="nav-wrapper">
+          <nav>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">New</a></li>
+              <li><a href="#">Popular</a></li>
+              <li><a href="#">Trending</a></li>
+              <li><a href="#">Categories</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="hamburger-menu__wrapper" id="burger">
+          <a href="#"
+            ><img src="/img/02 Burger Menu.svg" alt="hamburger-menu" />
+          </a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero-section">
+        <div class="hero-grid-container">
+          <div class="hero-grid-left">
+            <div class="hero-img">
+              <img src="/img/Hero-Img.jpg" alt="" />
+            </div>
+            <div class="heading"><h1>The Bright Future of Web 3.0?</h1></div>
+            <div class="p-cta">
+              <p>
+                We dive into the next evolution of the web that claims to put
+                the power of the platforms back into the hands of the people.
+                But is it really fulfilling its promise?
+              </p>
+              <a href="#">READ MORE</a>
+            </div>
+          </div>
+          <div class="hero-grid-right">
+            <h3>New</h3>
+            <div class="news-vertical-grid">
+              <div class="news-container">
+                <h4><a href="">Hydrogen VS Electric Cars</a></h4>
+                <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+              </div>
+              <div class="divider"></div>
+              <div class="news-container">
+                <h4><a href="">The Downsides of AI Artistry</a></h4>
+                <p>
+                  What are the possible adverse effects of on-demand AI image
+                  generation?
+                </p>
+              </div>
+              <div class="divider"></div>
+              <div class="news-container">
+                <h4><a href="">Is VC Funding Drying Up?</a></h4>
+                <p>
+                  Private funding by VC firms is down 50% YOY. We take a look at
+                  what that means.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="cards">
+        <div class="cards-grid">
+          <div class="card-item">
+            <div class="card-img">
+              <img src="/img/Bitmap.jpg" alt="retro-pc" />
+            </div>
+            <div class="card-content">
+              <h3>01</h3>
+
+              <h4><a href="#">Reviving Retro PCs</a></h4>
+              <p>What happens when old PCs are given modern upgrades?</p>
+            </div>
+          </div>
+          <div class="card-item">
+            <div class="card-img">
+              <img src="/img/Bitmap2.jpg" alt="dope-keyboard" />
+            </div>
+            <div class="card-content">
+              <h3>02</h3>
+              <h4><a href="#">Top 10 Laptops of 2022</a></h4>
+              <p>Our best picks for various needs and budgets.</p>
+            </div>
+          </div>
+          <div class="card-item">
+            <div class="card-img">
+              <img src="/img/Bitmap3.jpg" alt="ps4-controller" />
+            </div>
+            <div class="card-content">
+              <h3>03</h3>
+              <h4><a href="#">The Growth of Gaming</a></h4>
+              <p>How the pandemic has sparked fresh opportunities.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- MOBILE MENU -->
+    <div class="back-menu" id="backmenu"></div>
+    <div class="side-nav" id="sidenav">
+      <div class="close-btn" id="closeBtn">
+        <a href="#"
+          ><img src="/img/03 Close Tab.svg" alt="close-mobileMenu"
+        /></a>
+      </div>
+      <div class="mobile-nav-items">
+        <a href="#">Home</a>
+        <a href="#">New</a>
+        <a href="#">Popular</a>
+        <a href="#">Trending</a>
+        <a href="#">Categories</a>
+      </div>
+    </div>
+  </body>
+  <script src="/script.js"></script>
+</html>
